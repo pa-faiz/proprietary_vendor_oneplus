@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/oneplus7t
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/oneplus7t/proprietary/odm/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/dax-default.xml \
     vendor/oneplus/oneplus7t/proprietary/odm/etc/odm_feature_list:$(TARGET_COPY_OUT_ODM)/etc/odm_feature_list \
     vendor/oneplus/oneplus7t/proprietary/vendor/etc/acdbdata/MTP/EU/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/EU/MTP_Bluetooth_cal.acdb \
     vendor/oneplus/oneplus7t/proprietary/vendor/etc/acdbdata/MTP/EU/MTP_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/EU/MTP_Codec_cal.acdb \
