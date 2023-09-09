@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/sm8150-common
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/sm8150-common/proprietary/odm/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     vendor/oneplus/sm8150-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/oneplus/sm8150-common/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/oneplus/sm8150-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
@@ -219,6 +220,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_wuhantong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_wuhantong.conf \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_yangchengtong.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_yangchengtong.conf \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/libnfc-nxp_zhengzhoubus.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_zhengzhoubus.conf \
+    vendor/oneplus/sm8150-common/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
+    vendor/oneplus/sm8150-common/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/oneplus/sm8150-common/proprietary/vendor/etc/qdcm_calib_data_samsung_dsc_cmd_mode_oneplus_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_samsung_dsc_cmd_mode_oneplus_dsi_panel.xml \
