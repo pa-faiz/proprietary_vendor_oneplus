@@ -52,6 +52,7 @@ android_app_import {
 	name: "ConnectionSecurityService",
 	owner: "oneplus",
 	apk: "proprietary/vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk",
+	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
